@@ -1,0 +1,54 @@
+# Backend-specific ignores
+
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# database
+*.db
+*.sqlite
+*.sqlite3
+notes_sharing.db
+
+# logs
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.DS_Store?
+._*
+
+# Build and dist
+dist/
+build/
+
+# Cache
+.npm
+.eslintcache
+.node_repl_history
+
+# Testing
+/coverage
+.nyc_output
+
+# Misc
+.cache/
+.history/
